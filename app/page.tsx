@@ -37,8 +37,8 @@ export default function Home() {
           </section>
         )}
 
-      {/* Próxima presentación */}
-      {!convocatoriaActiva && infoPresentacionVisible && (
+      {/* Próxima presentación. Agregar negación en la línea de abajo */}
+      {convocatoriaActiva && infoPresentacionVisible && (
           <section className="bg-[#4C0027] text-white flex flex-col gap-4 items-center mx-auto px-10 py-15">
             <h3 className="text-2xl font-semibold">¡Te invitamos a la presentación de nuestro nuevo número!</h3>
 

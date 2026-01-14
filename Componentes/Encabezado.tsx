@@ -38,7 +38,7 @@ export default function Encabezado() {
 
                     md:static md:z-auto md:h-auto md:w-auto md:flex-row md:translate-x-0 md:gap-10 md:p-0 md:bg-transparent`}
                 >
-                    {/*<EnlaceNavegacion nombre="Archivo" ruta="/archivo" onClick={() => setMenuAbierto(false)} />*/}
+                    <EnlaceNavegacion nombre="Archivo" ruta="/archivo" onClick={() => setMenuAbierto(false)} />
                     <EnlaceNavegacion nombre="Lineamientos de publicación" ruta="/lineamientos-de-publicacion" onClick={() => setMenuAbierto(false)} />
                     <EnlaceNavegacion nombre="Contacto y envío de propuestas" ruta="/contacto-y-envio-de-propuestas" onClick={() => setMenuAbierto(false)} />
                 </ul>
